@@ -1,5 +1,5 @@
 
-const pdfParse = require('pdf-parse');
+const pdfParse = require('pdf-parse-new');
 const mammoth = require('mammoth');
 const fs = require('fs');
 const path = require('path');
