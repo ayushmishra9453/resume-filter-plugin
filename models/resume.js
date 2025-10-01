@@ -2,7 +2,7 @@
 module.exports = (mongoose) => {
   const ResumeSchema = new mongoose.Schema({
     name: { type: String, required: true },
-    email: { type: String, required: true },
+    email: { type: String},
     skills: { type: [String], required: true, default: [] },
     experience: { type: String },
     resumeText: { type: String, index: true },
